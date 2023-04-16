@@ -7,7 +7,64 @@ The parachain template is generated directly at each Polkadot release branch fro
 
 It is usually best to use the stand-alone version to start a new project.
 All bugs, suggestions, and feature requests should be made upstream in the [Substrate](https://github.com/paritytech/substrate/tree/master/bin/node-template) repository.
+## Setup
+Aby ułatwić potencjalną instalację(wprowadzałem zmiany w rust-toolchain pod moje środowisko) wrzucam output komend:
+```sh
+rustup show
+rustup +nightly show
+```
 
+```sh
+Default host: x86_64-apple-darwin
+rustup home:  /Users/mikolajrucinski/.rustup
+
+installed toolchains
+--------------------
+
+stable-x86_64-apple-darwin
+nightly-2020-10-05-x86_64-apple-darwin
+nightly-2020-10-06-x86_64-apple-darwin
+nightly-2022-07-24-x86_64-apple-darwin
+nightly-2023-01-01-x86_64-apple-darwin
+nightly-x86_64-apple-darwin (default)
+
+installed targets for active toolchain
+--------------------------------------
+
+wasm32-unknown-unknown
+x86_64-apple-darwin
+
+active toolchain
+----------------
+
+nightly-2023-01-01-x86_64-apple-darwin (overridden by '/Users/mikolajrucinski/waste_managment/rust-toolchain.toml')
+rustc 1.68.0-nightly (574b64a97 2022-12-31)
+
+Default host: x86_64-apple-darwin
+rustup home:  /Users/mikolajrucinski/.rustup
+
+installed toolchains
+--------------------
+
+stable-x86_64-apple-darwin
+nightly-2020-10-05-x86_64-apple-darwin
+nightly-2020-10-06-x86_64-apple-darwin
+nightly-2022-07-24-x86_64-apple-darwin
+nightly-2023-01-01-x86_64-apple-darwin
+nightly-x86_64-apple-darwin (default)
+
+installed targets for active toolchain
+--------------------------------------
+
+wasm32-unknown-unknown
+x86_64-apple-darwin
+
+active toolchain
+----------------
+
+nightly-x86_64-apple-darwin (overridden by +toolchain on the command line)
+rustc 1.70.0-nightly (88fb1b922 2023-04-10)
+```
 ## Getting Started
 
 Depending on your operating system and Rust version, there might be additional packages required to compile this template.
