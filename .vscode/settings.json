@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./pallets/waste-management/Cargo.toml"
+    ]
+}
