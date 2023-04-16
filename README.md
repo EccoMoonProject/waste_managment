@@ -9,8 +9,8 @@ It is usually best to use the stand-alone version to start a new project.
 All bugs, suggestions, and feature requests should be made upstream in the [Substrate](https://github.com/paritytech/substrate/tree/master/bin/node-template) repository.
 ## Setup
 Aby ułatwić potencjalną instalację(wprowadzałem zmiany w rust-toolchain pod moje środowisko) wrzucam output komend:
-UWAGA: SUBSTRATE JEST TYLKO UNIX BASED OS FRIENDLY
-MOJA PRACA ZOSTAŁA WYKONANA NA MAC OS MONTEREY
+UWAGA: SUBSTRATE JEST TYLKO UNIX BASED OS FRIENDLY.
+MOJA PRACA ZOSTAŁA WYKONANA NA MAC OS MONTEREY.
 W PRZYPADKU INNYCH WERSJI LUB SYSTEMU LINUX ZACHĘCAM DO SUBSTRATE DOCS:
 https://docs.substrate.io/install/macos/
 https://docs.substrate.io/install/linux/
